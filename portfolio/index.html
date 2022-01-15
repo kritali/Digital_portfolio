@@ -292,6 +292,62 @@ function showDivs(n) {
                               </ul>
                            </li>
                            <li>
+                              <div class="link">
+                                 <p style="margin-bottom: 0px">Local Retail Online Store </p>
+                                 <i class="fa fa-chevron-down"></i>
+                              </div>
+                              <ul class="submenu mb-0" style="padding-left: 10px">
+                                 <li>
+                                    
+                                       <div class="w3-content w3-display-container">
+                                       
+  <img class="mySlides11" src="./images/p11.png" style="width:100%">
+  <img class="mySlides11" src="./images/p22.png" style="width:85%">
+
+  <img class="mySlides11" src="./images/p44.png" style="width:85%">
+  <img class="mySlides11" src="./images/p55.png" style="width:100%">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDiv(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDiv(1)">&#10095;</button>
+                                       </div>
+                                       
+<script>
+var slideIndexx = 1;
+showDiv(slideIndexx);
+
+function plusDiv(n) {
+  showDiv(slideIndexx += n);
+}
+
+function showDiv(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides11");
+  if (n > x.length) {slideIndexx = 1}
+  if (n < 1) {slideIndexx = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndexx-1].style.display = "block";  
+}
+</script>
+<br>
+<h3><u>Description:-</u></h3>
+                                    
+                              <p>It's an online grocery website that allows consumers to order domestic and essential things from their local area through a user-friendly interface. During a lockdown, this is a huge benefit, as it promotes social separation.
+                                    </p> <br>
+                                     <h3><u>Language Used:-</u></h3>
+                                    <p>HTML,CSS and Javascript are used at the frontend and PHP, SQL at the backend.
+                                    </p>               
+                                    
+                                 </li>
+                                 
+                                 
+                                    
+                                 
+                              </ul>
+                           </li>
+                           <li>
+                           <li>
 
                              <div class="link">
                                  <p style="margin-bottom: 0px">C-19 Tracker</p>
